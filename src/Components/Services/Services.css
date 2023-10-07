@@ -1,0 +1,73 @@
+.icon {
+  border: 1px solid white;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  padding: 5px;
+  background: rgb(80, 89, 171);
+  background: linear-gradient(
+    90deg,
+    rgba(80, 89, 171, 1) 0%,
+    rgba(55, 110, 233, 1) 69%
+  );
+  color: white;
+}
+
+.service-hover {
+  background-color: #b9b4c7;
+}
+.service-hover:hover {
+  background: rgb(199, 180, 180);
+  background: linear-gradient(
+    90deg,
+    rgba(199, 180, 180, 1) 0%,
+    rgba(173, 202, 206, 1) 90%
+  );
+}
+
+@media (max-width: 576px) {
+  .my-sm-2 {
+    margin: 10px 0;
+  }
+}
+/* ///////////////// */
+
+.swiper {
+  width: 100%;
+  height: 100%;
+  background: #000;
+}
+
+.swiper-slide {
+  font-size: 18px;
+  color: #fff;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 40px 60px;
+}
+
+.parallax-bg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 130%;
+  height: 100%;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center;
+}
+
+.swiper-slide .title {
+  font-size: 41px;
+  font-weight: 300;
+}
+
+.swiper-slide .subtitle {
+  font-size: 21px;
+}
+
+.swiper-slide .text {
+  font-size: 14px;
+  max-width: 400px;
+  line-height: 1.3;
+}

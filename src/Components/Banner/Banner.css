@@ -1,0 +1,16 @@
+@media (max-width: 768px) {
+  .display-2 {
+    font-size: 2rem;
+  }
+}
+.btn-w {
+  width: 200px;
+}
+.animation-text {
+  font-size: 2rem;
+}
+@media (max-width: 380px) {
+  .animation-text {
+    font-size: 20px;
+  }
+}
