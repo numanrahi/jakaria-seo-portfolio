@@ -18,7 +18,7 @@ const Banner = () => {
     <div>
       <div className="p-5 text-center">
         <img
-          src="https://i.ibb.co/z5nQQHJ/My-project.jpg"
+          src="https://i.ibb.co/3rb6378/jk.jpg"
           height="200px"
           width="200px"
           style={{ borderRadius: "50%" }}
