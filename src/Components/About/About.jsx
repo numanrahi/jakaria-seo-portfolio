@@ -2,15 +2,15 @@ import React from "react";
 
 const About = () => {
   return (
-    <div>
+    <div style={{overflowX:"hidden"}}>
       <div className="display-3 text-center">
         About <span className="text-primary">Me!</span>
       </div>
-      <div className="d-flex justify-content-around py-5 ">
+      <div className="d-flex flex-wrap justify-content-around align-items-center py-5 ">
         <section>
-          <img src="https://i.ibb.co/3rb6378/jk.jpg" alt="" />
+          <img height="250px" width="250px" src="https://i.ibb.co/3rb6378/jk.jpg" alt="" />
         </section>
-        <section className="w-50 ">
+        <section className="w-50 pt-5">
           Hello, This is Mohammad Jakaria. I’m a professional Digital Marketer
           and SEO Expert. I’ve more than “Two Years” of experience in this field
           of Digital Marketing. I'm also a Graphic Designer. I'm working on

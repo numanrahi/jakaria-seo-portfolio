@@ -6,7 +6,7 @@ import Skills from "../Components/Skills/Skills";
 
 const Home = () => {
   return (
-    <div>
+    <div style={{overflowX:"hidden"}}>
       <Banner />
       <About />
       <Services />
