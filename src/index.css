@@ -3,3 +3,13 @@ body {
   margin: 0 auto; 
   max-width: 1200px;
 }
+.lottie{
+  height: 500px;
+  width: 500px;
+}
+@media (max-width: 564px) {
+  .lottie{
+    height: 400px;
+    width: 400px;
+  }
+}
